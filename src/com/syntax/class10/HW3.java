@@ -40,7 +40,7 @@ public class HW3 {
 				capital = "Madrid";
 				break;
 			default:
-				capital = null;
+				capital = "I don't know";
 				
 			}
 			System.out.println(capital);
