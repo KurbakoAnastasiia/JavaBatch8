@@ -1,5 +1,7 @@
 package com.syntax.class09;
 
+import javax.annotation.processing.SupportedSourceVersion;
+
 public class PrintingPatterns {
 
 	public static void main(String[] args) {
@@ -42,6 +44,37 @@ public class PrintingPatterns {
 			System.out.println();
 		}
 		
+		
+		for (int i = 1; i <= 5; i++) {
+			if (i == 1) {
+				for (int j = 1; j <= 10; j++) {
+				System.out.print(j + " ");
+			} 	System.out.println();
+			} else if (i == 2) {
+				for (int a = 2; a <= 20; a+=2) {
+					System.out.print(a + " ");
+				} System.out.println();
+			} else if (i == 3) {
+				for (int b = 3; b <= 30; b+=3) {
+						System.out.print(b + " ");
+			} System.out.println();
+			} else if (i == 4) {
+				for (int x = 4; x <= 40; x+=4) {
+							System.out.print(x + " ");
+			}	System.out.println();
+			} else {
+				for (int y = 5; y <= 50; y+=5) {
+							System.out.print(y + " ");
+			}   System.out.println();
+								
+						
+		}
 	}
+		System.out.println();System.out.println("----------------------------");
+		for (int i = 1; i <= 5; i++) {
+		       for (int j = 1; j <= 10; j++) {
+		      System.out.print((i * j) + " "); }
 
+		    System.out.println(); }
+	}
 }
